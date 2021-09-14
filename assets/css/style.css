@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  user-select: none;
+}
+
+body {
+  background: #c2e59c;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #64b3f4, #c2e59c);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 90vh;
+}
+
+.main {
+  text-align: center;
+  margin: 3rem auto 0;
+}
+.main h2 {
+  color: #464660;
+  font-size: 3rem;
+}
+.main #desc {
+  color: #464660;
+  font-size: 1.1rem;
+}
+.main #desc .span1 {
+  color: #ffb740;
+}
+.main #desc .span2 {
+  color: #50cb93;
+}
+.main input {
+  color: #03256c;
+  background: transparent;
+  width: 8rem;
+  height: 6rem;
+  margin: 0;
+  border: none;
+  font-size: 4rem;
+  text-align: center;
+  margin-left: -5px;
+}
+.main input:focus {
+  outline: none;
+}
+.main #b1,
+.main #b4 {
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+.main #b2,
+.main #b5 {
+  border-right: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+.main #b3,
+.main #b6 {
+  border-bottom: 2px solid #000000;
+}
+.main #b7,
+.main #b8 {
+  border-right: 2px solid #000000;
+}
+.main #btn {
+  box-sizing: border-box;
+  width: 95px;
+  height: 40px;
+  border: 1px solid #002366;
+  margin: 3rem auto 1rem;
+  border-radius: 4px;
+  background: #003496;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.main #btn:hover {
+  background: #002366;
+}
+.main #print {
+  color: #03256c;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+}
+.footer a {
+  margin: 1rem 0.5rem;
+}
+.footer a img {
+  width: 30px;
+  transition: 0.3s;
+}
+.footer a img:hover {
+  transform: scale(1.5, 1.5);
+}
+.footer p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 450px) {
+  .main {
+    margin: 2rem auto 0;
+  }
+  .main h2 {
+    font-size: 2rem;
+  }
+  .main #desc {
+    font-size: 1.1rem;
+  }
+  .main #print {
+    font-size: 2rem;
+  }
+  .main input {
+    width: 6rem;
+    height: 5rem;
+    font-size: 3rem;
+  }
+  .main #btn {
+    margin: 1.2rem auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
